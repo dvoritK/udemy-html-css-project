@@ -211,3 +211,26 @@ body {
   background-color: #fae5d3;
   z-index: -1;
 }
+/*SECTION FEATURED*/
+
+.section-featured {
+  background-color: #f7f7f7;
+  padding: 4rem 0;
+}
+.featured-heading {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #888;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+}
+
+.featured-logos {
+  display: flex;
+  justify-content: space-around;
+  filter: brightness(0);
+  opacity: 50%;
+}
+.featured-logos img {
+  height: 3.2rem;
+}
