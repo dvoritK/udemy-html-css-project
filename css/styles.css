@@ -242,7 +242,8 @@ body {
   margin-top: 10rem;
 }
 
-.section-meals-heading {
+.section-meals-heading,
+.header {
   font-size: 5rem;
   text-align: center;
   margin-bottom: 6rem;
@@ -338,7 +339,7 @@ body {
 }
 
 .meals-card:hover {
-  transform: translateY(1.5rem);
+  transform: translateY(-1.5rem);
 }
 .recipes-link {
   text-align: center;
@@ -355,4 +356,56 @@ body {
 .link:hover,
 .link:active {
   border-bottom: 0.1rem solid transparent;
+}
+
+/*SECTION TESTIMONIAL*/
+.testimonial-header {
+  text-align: left;
+}
+.testimonial-subtitle {
+  margin-top: 4rem;
+}
+.section-testimonial {
+  margin-top: 9rem;
+  padding-right: 8rem;
+  padding-left: 8rem;
+  background-color: #fdf2e9;
+}
+.testimonial-author-img {
+  height: 6.4rem;
+  border-radius: 50%;
+}
+.testimonial-quote {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+.testimonial-author-name {
+  font-size: 1.8rem;
+  opacity: 70%;
+}
+.testimonial-grid {
+  padding-left: 5rem;
+}
+.testimonial-content {
+  align-self: center;
+  justify-self: center;
+}
+.testimonial-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  align-content: center;
+  margin: 4rem 0 4rem 4rem;
+  align-items: center;
+}
+.gallery-img img {
+  height: 20rem;
+  width: 20rem;
+  transition: all 0.4s ease-out;
+}
+.gallery-img {
+  overflow: hidden;
+}
+.gallery-img img:hover {
+  transform: scale(1.1);
 }
