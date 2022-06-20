@@ -528,6 +528,7 @@ body {
   margin: 9rem auto;
   border-radius: 1rem;
   overflow: hidden;
+  margin-bottom: 12rem;
 }
 .cta-headline {
   margin-bottom: 4rem;
@@ -598,23 +599,55 @@ body {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  font-size: 1.8rem;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  column-gap: 8rem;
+  font-size: 1.6rem;
+  max-width: 120rem;
+  margin: 9rem auto;
 }
 .footer-grid .nav-list {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-.nav-list {
-  margin-top: 3rem;
+.nav-list-footer {
   margin-bottom: 9rem;
 }
-.nav-heading {
+.nav-heading,
+.aside-heading {
   font-size: 2rem;
+  margin-bottom: 3rem;
 }
 .nav-list-item a:link,
-.nav-list-item a:visited {
+.nav-list-item a:visited,
+.phone-link:link,
+.phone-link:visited,
+.email-link:link,
+.email-link:visited {
   text-decoration: none;
   color: #555;
+}
+.icon-logo {
+  margin: 3rem 1.5rem 0 0;
+  width: 2.4rem;
+  height: 2.4rem;
+  opacity: 0.8;
+}
+
+.copyrights {
+  font-size: 1.4rem;
+  opacity: 0.8;
+  margin-top: 7rem;
+}
+.footer-grid aside {
+  line-height: 1.5;
+}
+.aside-p-links {
+  margin-top: 3rem;
+}
+hr {
+  opacity: 0.4;
+}
+footer {
+  margin-top: 12rem;
 }
